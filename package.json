@@ -1,0 +1,27 @@
+{
+  "name": "social_media",
+  "version": "1.0.0",
+  "description": "social media application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishantGautam023/Social_media.git"
+  },
+  "keywords": [
+    "Social",
+    "media"
+  ],
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishantGautam023/Social_media/issues"
+  },
+  "homepage": "https://github.com/NishantGautam023/Social_media#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
