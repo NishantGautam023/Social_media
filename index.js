@@ -3,8 +3,13 @@ const app = express();
 const port = 8000;
 
 // use express router 
-
 app.use('/', require('./routes/index'));
+// /routes/index is same as doing /routes
+
+// set up the view engine
+app.set('view engine', 'ejs');
+app.set('views', './views');
+
 console.log("route has been loaded")
 
 
